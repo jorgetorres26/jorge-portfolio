@@ -11,7 +11,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+html, body {background: #181818; font-family: 'Titillium Web', sans-serif; font-size: 16px; color: #222;}
 
 .clear {clear: both;}
 
@@ -38,14 +38,14 @@ p {
 #name h1 {
 	font-size: 2.5em;
 	font-weight: 700;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	margin-bottom: -6px;
 }
 
 #name h2 {
 	font-size: 2em;
 	margin-left: 2px;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 #mainArea {
@@ -124,14 +124,14 @@ section:last-child {
 }
 
 .sectionTitle h1 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
 	color: #cf8a05;
 }
 
 .sectionContent h2 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.5em;
 	margin-bottom: -2px;
 }
@@ -175,7 +175,7 @@ section:last-child {
 		min-width: 280px;
 	}
 	
-	#headshot {
+	#headshot{
 		display: none;
 	}
 	
@@ -184,6 +184,8 @@ section:last-child {
 		width: 100%;
 		text-align: center;
 	}
+
+
 	
 	.sectionTitle, .sectionContent {
 		float: none;
@@ -364,3 +366,12 @@ a {
   text-decoration: none; /* no underline */
 }
 
+@media only screen and (max-width: 640px) {
+    #hide {
+        display: none;
+    }
+}
+
+#id{
+	padding-left:20px;
+}
